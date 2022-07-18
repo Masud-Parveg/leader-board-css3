@@ -14,7 +14,7 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 870px;
-    height: 679px;
+
     border-radius: 5px;
     position: absolute;
     left: 285px;
@@ -24,6 +24,8 @@ main{
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 25px;
+    margin-top: 33px;
 }
 
 /* top players style */
@@ -54,3 +56,35 @@ hr {
     margin-left: 16px;
     font-size: 18px;
 }
+/* end top players part */
+/* start top blogs part */
+.blogs {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-row-gap:  26px;
+}
+.blog {
+    display: flex;
+}
+
+.thumlail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+   
+}
+.blog-name {
+    font-size: 20px;
+    color: #000000;
+}
+.aurthor{
+    font-size: 16px;
+    color: #562EFF;
+    margin-top: -14px;
+}
+.by-color{
+    color: #9F9F9F;
+}
+/* end top blogs part */
