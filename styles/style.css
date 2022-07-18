@@ -10,15 +10,13 @@ body{
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
     width: 870px;
-
     border-radius: 5px;
     position: absolute;
-    left: 285px;
-    top:130px;
     padding: 30px;
 }
 
@@ -88,3 +86,83 @@ hr {
     color: #9F9F9F;
 }
 /* end top blogs part */
+
+/* star Latest Courses */
+/* fonts for latest course */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.letest-course {
+    margin-top: 730px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    width: 944px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.courses{
+    display: flex;
+    column-gap: 54px;
+
+}
+.thumlail-course img {
+    width: 224px;
+    height: 104px;
+
+}
+.course-name{
+    font-size: 20px;
+}
+.course-name-01{
+    font-size: 20px;
+    margin-top: -15px;
+}
+.aurthor-course {
+    Color: #ED6B4F;
+    font-Weight:400;
+    font-Size: 14.69px;
+    margin-top: -13px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    Width:12.39px;
+    Height:11.81px;
+    color:#FFC014;
+}
+#fifth-star {
+    color: #AEAEAE;
+}
+.rateing-point{
+    font-family: 'Poppins';
+    color:  #A2A2A2;
+    font-weight: 400;
+    font-size: 14.6913px;
+    margin-left: 10px;
+}
+.clock-time{
+    color: #FF4A60;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14.6913px;
+    margin-left: 21px;
+}
+/* coures part end */
+
+/* media Quaries  */
+/* mobile devise */
+@media only screen and (max-width:767px) {
+    .container {
+        width: 100%;
+    }
+    .players, .blogs, .courses {
+        grid-template-columns: repeat(1, 1ft);
+        
+    }
+    .player, .blog, .course {
+        flex-direction: column;
+    }
+}
+
